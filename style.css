@@ -1,0 +1,180 @@
+html {
+  height: 100%;
+  width: 100%;
+  background-color: floralwhite;
+}
+.navbar ul {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  background-color: darkblue;
+  list-style-type: none;
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  margin-bottom:0 px;
+  float: top;
+  margin: 0;
+
+}
+
+.navbar ul button {
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  border: none;
+  background-color: darkblue;
+  font-family: "Georgia";  
+  cursor: pointer;
+}
+.navbar ul button:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.navbar ul li {
+  float: left;
+  margin: 10px;
+  display: inline-block;
+  text-decoration: none;
+  color: aliceblue;
+  text-align: center;
+  padding: 14px 16px;
+}
+
+
+.navbar ul li a {
+  font-family: Georgia;
+  color:white;
+  font-size: 16px;
+  text-decoration: none;
+}
+
+.navbar ul li a:hover {
+  font-weight: bold;
+}
+
+.flex-container {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+.flex-item {
+    background: white;
+    color: black;
+    font-weight: bold;
+    text-align: center;
+}
+.header-container {
+  display:flex;
+  flex-direction: column;
+  float:top;
+  margin-top: 100px;
+  text-align: center;
+  font-family: "Georgia", serif;
+  font-size: 30px;
+  color: white;
+  background-color: darkblue;
+  padding-top: 20px;
+}
+
+nav button {
+  cursor: pointer;
+  background-color: darkblue;
+  color: white;
+  border: 1px, solid, black;
+  font-family: "Georgia", serif;
+  font-size: 15px;
+  padding: 10px;
+  margin: 10px;
+}
+
+.Videos {
+  display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+#MedPol {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
+}
+#MedPol p {
+  align-self: flex-start;
+}
+
+h3 {
+  text-align: center;
+  font-family: "Georgia", serif;
+  color: black;
+}
+
+p {
+  font-family: "Georgia", serif;
+  text-align: center;
+}
+
+.Healthcare-body-images {
+  display: flex;
+  justify-content: center;
+
+}
+
+#costs-drugs {
+  margin-left: 10px;
+  border: 1px solid black;
+}
+
+#costs-healthcare {
+  margin-right: 10px;
+  border: 1px solid black;
+}
+/* styles.css */
+
+/* General reset to avoid browser-specific styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body styling for demo purposes */
+body {
+  position: absolute;
+    font-family: Georgia, sans-serif;
+    line-height: 1.6;
+    padding-bottom: 150px; /* Adjust based on footer height */
+}
+
+
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: darkblue;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    z-index: 1000;
+}
+
+#Video-Header {
+  display:flex;
+  justify-content: center;
+}
+footer ul li a {
+  color: white;
+}
+
+.dark-mode {
+  background-color: black;
+  color: white;
+}

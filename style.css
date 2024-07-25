@@ -113,7 +113,6 @@ nav button {
 h3 {
   text-align: center;
   font-family: "Georgia", serif;
-  color: black;
 }
 
 p {
@@ -177,4 +176,32 @@ footer ul li a {
 .dark-mode {
   background-color: black;
   color: white;
+}
+
+.error {
+    border: 2px solid red;
+}
+
+
+
+#signatureList {
+    ; /* This will allow the signature list to take up space on the left */
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    max-width: 300px; /* Control the width of the signature list */
+}
+
+#container-form {
+    display: flex; 
+  flex-direction: row;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    max-width: 300px; 
+}
+
+#form-box {
+  display: flex;
+  flex-direction: column;
 }
